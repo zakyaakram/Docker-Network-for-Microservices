@@ -86,10 +86,10 @@ docker network create ivolve-network
 docker run -d --name backend --network ivolve-network backend-image
 
 # Frontend 1 (connected to network)
-docker run -d --name frontend1 -p 5001:5000 --network ivolve-network frontend-image
+docker run -d --name frontend1 -p 5006:5000 --network ivolve-network frontend-image
 
 # Frontend 2 (default network)
-docker run -d --name frontend2 -p 5002:5000 frontend-image
+docker run -d --name frontend2 -p 5007:5000 frontend-image
 ```
 
 ---
@@ -130,13 +130,6 @@ docker network rm ivolve-network
 ## 📸 Screenshots (Optional)
 
 *Add screenshots here if needed**
-
----
-
-## 👨‍💻 Author
-
-Your Name
-GitHub: https://github.com/YOUR_USERNAME
 
 ---
 
