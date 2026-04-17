@@ -123,13 +123,6 @@ docker exec -it frontend2 curl http://backend:5000
 ```bash
 docker rm -f frontend1 frontend2 backend
 docker network rm ivolve-network
-```
-
----
-
-## 📸 Screenshots (Optional)
-
-*Add screenshots here if needed**
 
 ---
 
